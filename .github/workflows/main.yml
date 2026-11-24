@@ -9,8 +9,6 @@ jobs:
     run-on: ubuntu-latest
 
     steps:
-      -name:"printing path"
-       run:pwd
-      -name:"printing name"
-       run:echo mary
+      -name:"printing files"
+      run:ls
 
