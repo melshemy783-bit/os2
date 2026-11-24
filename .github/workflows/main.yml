@@ -1,14 +1,13 @@
 on:
   push:
     branches:
-      -master
-
+      - master
 
 jobs:
   build:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
-      -name:"printing files"
-      run:ls
+      - name: Printing files
+        run: ls
 
