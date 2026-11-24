@@ -11,5 +11,5 @@ jobs:
       -name:"printing path"
        run:pwd
       -name:"printing name"
-       run: echo mariam
-       
+       run:echo mary
+
